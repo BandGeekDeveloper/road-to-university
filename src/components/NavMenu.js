@@ -46,6 +46,9 @@ export const NavMenu = () => {
             </ul>
           </div>
         </div>
+        <div className='text-xl navbar-center text-base-100'>
+          Road to University
+        </div>
         <div className='navbar-end'>
           <button className='btn btn-ghost btn-circle text-base-100'>
             <LiaSearchLocationSolid className='w-8 h-8' />
