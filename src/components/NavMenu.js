@@ -2,6 +2,7 @@ import React from 'react';
 import { BiMenuAltLeft } from 'react-icons/bi';
 import { LiaSearchLocationSolid } from 'react-icons/lia';
 import { RiAccountCircleFill } from 'react-icons/ri';
+import { FaUniversity } from 'react-icons/fa';
 
 export const NavMenu = () => {
   return (
@@ -47,7 +48,10 @@ export const NavMenu = () => {
           </div>
         </div>
         <div className='text-xl navbar-center text-base-100'>
-          Road to University
+          <a className='mx-2'>
+            <FaUniversity />
+          </a>
+          <a>Road to University</a>
         </div>
         <div className='navbar-end'>
           <button className='btn btn-ghost btn-circle text-base-100'>
